@@ -26,8 +26,8 @@ def scut():
     browser.set_window_size(375,812)
     # 格式是PEP8自动转的
     # 这里是找到输入框,发送要输入的用户名和密码,模拟登陆
-    browser.find_element_by_xpath("//*[@id='userName']").send_keys(os.environ['17771522550'])
-    browser.find_element_by_xpath("//*[@id='password']").send_keys(os.environ['zxc1989'])
+    browser.find_element_by_xpath("//*[@id='userName']").send_keys(os.environ['SCUT_USER'])
+    browser.find_element_by_xpath("//*[@id='password']").send_keys(os.environ['SCUT_PASSWORD'])
     # 在输入用户名和密码之后,点击登陆按钮
     browser.find_element_by_xpath("/html/body/div[1]/div[2]").click()
     time.sleep(1)
