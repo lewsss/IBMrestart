@@ -38,7 +38,7 @@ def scut():
     time.sleep(2)
     all_browser=browser.window_handles
     browser.find_element_by_xpath('//*[@id="app"]/div[3]/div/div[3]').click()
-    chenggong = browser.find_element_by_xpath('//*[@id="app"]/div[1]/div/p[2]')
+    chenggong = browser.find_element_by_xpath('//*[@id="app"]/div[1]/div')
     text = chenggong.text
     print(text)
     time.sleep(3)
