@@ -42,6 +42,7 @@ def scut():
     chenggong = browser.find_element_by_xpath('//*[@id="app"]/div[1]/div')
     text = chenggong.text
     print(text)
+    print('已签到了吧！')
 if __name__ == '__main__':
     scut()
     # 脚本运行成功,退出浏览器
