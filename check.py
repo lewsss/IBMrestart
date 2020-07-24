@@ -40,7 +40,7 @@ def scut():
     # huakuai = browser.find_element_by_xpath('//*[@id="layui-m-layer0"]/div[2]/div/div/div/div/div/div/div/span[1]')
     # tuodong = TouchActions(browser)
     # tuodong.flick_element(huakuai, 420, 0, 2).perform()
-    time.sleep(random.randint(2, 10))
+    time.sleep(random.randint(30, 60))
     browser.find_element_by_xpath("//*[@id='close-button']").click()
     time.sleep(random.randint(2, 10))
     browser.find_element_by_xpath("//*[@id='main-content']/div/main/div/div/div[1]/div/div[5]/div/div[21]/button").click()
